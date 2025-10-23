@@ -1,0 +1,469 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-10-24T00:13:43.410624",
+  "providers": {
+    "penske": {
+      "pickup_input": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[type='text']:first-of-type"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='location' i]:first-of-type"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='pickup' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='Pick-up' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[name*='pickup' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[id*='pickup' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='zip' i]:first-of-type"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='address' i]:first-of-type"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Pick-up Location"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Pickup Location"
+          }
+        },
+        {
+          "strategy": "placeholder",
+          "params": {
+            "text": "Pick-up"
+          }
+        },
+        {
+          "strategy": "placeholder",
+          "params": {
+            "text": "Pickup"
+          }
+        }
+      ],
+      "dropoff_input": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[type='text']:nth-of-type(2)"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='location' i]:nth-of-type(2)"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='dropoff' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='Drop-off' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[name*='dropoff' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[id*='dropoff' i]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='zip' i]:nth-of-type(2)"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='address' i]:nth-of-type(2)"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Drop-off Location"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Dropoff Location"
+          }
+        },
+        {
+          "strategy": "placeholder",
+          "params": {
+            "text": "Drop-off"
+          }
+        },
+        {
+          "strategy": "placeholder",
+          "params": {
+            "text": "Dropoff"
+          }
+        }
+      ],
+      "pickup_date": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[type='date']:first-of-type"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[type='date']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='date' i]:first-of-type"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='pickup' i][type='date']"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Pick-up Date"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Pickup Date"
+          }
+        }
+      ],
+      "dropoff_date": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[type='date']:nth-of-type(2)"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='date' i]:nth-of-type(2)"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[placeholder*='dropoff' i][type='date']"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Drop-off Date"
+          }
+        },
+        {
+          "strategy": "label",
+          "params": {
+            "text": "Dropoff Date"
+          }
+        }
+      ],
+      "submit_button": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "button[type='submit']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[type='submit']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "button:has-text('Get')"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "button:has-text('Search')"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "button:has-text('Find')"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "button:has-text('Rates')"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "button:has-text('Quote')"
+          }
+        },
+        {
+          "strategy": "role",
+          "params": {
+            "role": "button",
+            "name": "Get Rates"
+          }
+        },
+        {
+          "strategy": "role",
+          "params": {
+            "role": "button",
+            "name": "Search"
+          }
+        },
+        {
+          "strategy": "role",
+          "params": {
+            "role": "button",
+            "name": "Find"
+          }
+        }
+      ],
+      "result_cards": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[data-test=rate-card]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": ".rate-card"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "article"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": ".quote-card"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='rate']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='quote']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='result']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": ".card"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='truck']"
+          }
+        }
+      ],
+      "price_element": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": ".price"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": ".total"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[data-test=total-price]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='price']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='total']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='cost']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='amount']"
+          }
+        }
+      ],
+      "truck_title": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "h3"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "h2"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "h1"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[data-test=truck-title]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='title']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='name']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='truck']"
+          }
+        }
+      ],
+      "miles_element": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": ".miles"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[data-test=included-miles]"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='mile']"
+          }
+        },
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "[class*='distance']"
+          }
+        }
+      ],
+      "test_field": [
+        {
+          "strategy": "css",
+          "params": {
+            "selector": "input[test]"
+          }
+        }
+      ]
+    }
+  }
+}
